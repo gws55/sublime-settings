@@ -1,0 +1,68 @@
+{
+
+
+    // Define region highlight styles
+    "bracket_styles": {
+        // "default" and "unmatched" styles are special
+        // styles. If they are not defined here,
+        // they will be generated internally with
+        // internal defaults.
+
+        // "default" style defines attributes that
+        // will be used for any style that does not
+        // explicitly define that attribute.  So if
+        // a style does not define a color, it will
+        // use the color from the "default" style.
+        "default": {
+            "icon": "bookmark",
+            // BH1's original default color for reference
+            // "color": "entity.name.class",
+            "color": "brackethighlighter.default",
+            "style": "underline"
+        },
+        // This particular style is used to highlight
+        // unmatched bracket pairs.  It is a special
+        // style.
+        "unmatched": {
+            "icon": "question",
+            // "color": "brackethighlighter.unmatched",
+        },
+        // User defined region styles
+        "curly": {
+            "icon": "curly_bracket",
+            // "color": "brackethighlighter.curly",
+        },
+        "round": {
+            "icon": "round_bracket",
+            // "color": "brackethighlighter.round",
+        },
+        "square": {
+            "icon": "square_bracket",
+            // "color": "brackethighlighter.square",
+        },
+        "angle": {
+            "icon": "angle_bracket",
+            // "color": "brackethighlighter.angle",
+        },
+        "tag": {
+            "icon": "tag",
+            // "color": "brackethighlighter.tag",
+        },
+        "c_define": {
+            "icon": "hash",
+            // "color": "brackethighlighter.c_define",
+        },
+        "single_quote": {
+            "icon": "single_quote",
+            // "color": "brackethighlighter.quote",
+        },
+        "double_quote": {
+            "icon": "double_quote",
+            // "color": "brackethighlighter.quote",
+        },
+        "regex": {
+            "icon": "regex",
+            // "color": "brackethighlighter.quote",
+        }
+    }
+}
